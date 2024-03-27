@@ -10,3 +10,51 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+    background-color: lightskyblue;
+}
+
+.navbar-nav .nav-link:hover {
+    color: lightskyblue;
+}
+
+.navbar-brand {
+    font-family: 'Fredoka One', sans-serif;
+}
+
+.btn-primary:hover {
+    color: lightskyblue;
+    background-color: white;
+}
+
+.custom-font {
+    font-family: 'Fredoka One', sans-serif;
+}
+
+#animated-text {
+    opacity: 0; 
+    animation: fadeInOut 2s infinite; 
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0; 
+    }
+    50% {
+        opacity: 1; 
+    }
+    100% {
+        opacity: 0; 
+    }
+}
+
+.hover-slide:hover {
+    color: lightskyblue;
+    transition: color 0.3s ease-in-out;
+}
+
+.hover-slide:hover {
+    transform: translateX(100px); 
+    transition: transform 0.3s ease-in-out; 
+}
