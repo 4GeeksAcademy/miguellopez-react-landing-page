@@ -1,7 +1,4 @@
 import React from "react";
-
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
 import Card from "../component/card";
 import Jumbotron from "./jumbotron";
 import Nav from "./nav";
